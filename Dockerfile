@@ -1,3 +1,3 @@
-FROM mono
-CMD mono --version
-CMD echo "hello world !"
+FROM alpine 
+MAINTAINER ohache
+CMD echo "hello docker !"
